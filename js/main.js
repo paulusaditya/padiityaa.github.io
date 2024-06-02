@@ -131,3 +131,13 @@ var linkedInIcon = document.getElementById("linkedInIcon");
 linkedInIcon.addEventListener("click", myLinkedIn);
 
 window.addEventListener('scroll', scrollActive)
+
+function myGitHub() {
+  var gitHubUsername = "paulusaditya";
+  var gitHubProfileUrl = "hhttps://github.com/" + linkedInUsername;
+  window.open(gitHubProfileUrl, "_blank");
+}
+var linkedInIcon = document.getElementById("gitHubIcon");
+gitHubIcon.addEventListener("click", myGitHub);
+
+window.addEventListener('scroll', scrollActive)
