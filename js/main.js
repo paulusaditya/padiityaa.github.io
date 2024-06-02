@@ -141,3 +141,10 @@ var linkedInIcon = document.getElementById("gitHubIcon");
 gitHubIcon.addEventListener("click", myGitHub);
 
 window.addEventListener('scroll', scrollActive)
+
+function downloadCV() {
+  const link = document.createElement('a');
+  link.href = 'cv/Cv.pdf'; // Ganti dengan jalur yang benar ke file CV Anda
+  link.download = 'Cv.pdf'; // Nama file yang akan diunduh
+  link.click();
+}
