@@ -144,7 +144,7 @@ window.addEventListener('scroll', scrollActive)
 
 function downloadCV() {
   const link = document.createElement('a');
-  link.href = 'cv/Cv.pdf'; // Ganti dengan jalur yang benar ke file CV Anda
-  link.download = 'Cv.pdf'; // Nama file yang akan diunduh
+  link.href = 'cv/CV_PAULUS ADITYA WICAKSONO.pdf'; // Ganti dengan jalur yang benar ke file CV Anda
+  link.download = 'CV_PAULUS ADITYA WICAKSONO.pdf'; // Nama file yang akan diunduh
   link.click();
 }
